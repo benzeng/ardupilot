@@ -1,5 +1,5 @@
 # ArduPilot for iOS
-This is a port for iOS, and its working is on the way. more detail will be added.
+This is a port for iOS, and its working is on the way. more detail please read Xcode/说明.txt.
 
 #ArduPilot Project#
 
