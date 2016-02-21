@@ -1,4 +1,0 @@
-这个项目希望把APM ArduCopter移植到iPhone中。
-
-
-1. 基于前期用HAL_EMPTY测试的结果，建立HAL_IOS，同时整理出相应的文档。
