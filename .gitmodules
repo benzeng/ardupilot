@@ -16,6 +16,3 @@
 [submodule "gtest"]
 	path = modules/gtest
 	url = git://github.com/benzeng/googletest
-[submodule "modules/uavcan"]
-	path = modules/uavcan
-	url = https://github.com/benzeng/uavcan.git
