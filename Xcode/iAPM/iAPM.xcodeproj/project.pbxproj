@@ -27,7 +27,18 @@
 		F50C389A1C829EF900DF2B57 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F50C388F1C829EF900DF2B57 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		F500BD5C1C82D2AF002E65FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F500BD571C82D2AF002E65FD /* Ardupilot.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F500BD3F1C82D24E002E65FD;
+			remoteInfo = dummytarget;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		F500BD571C82D2AF002E65FD /* Ardupilot.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Ardupilot.xcodeproj; path = Ardupilot/Ardupilot.xcodeproj; sourceTree = "<group>"; };
 		F50C385D1C82993900DF2B57 /* iAPM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iAPM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F50C38611C82993900DF2B57 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F50C38631C82993900DF2B57 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -74,9 +85,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F500BD581C82D2AF002E65FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F500BD5D1C82D2AF002E65FD /* dummytarget.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		F50C38541C82993900DF2B57 = {
 			isa = PBXGroup;
 			children = (
+				F500BD571C82D2AF002E65FD /* Ardupilot.xcodeproj */,
 				F50C385F1C82993900DF2B57 /* iAPM */,
 				F50C385E1C82993900DF2B57 /* Products */,
 			);
@@ -199,12 +219,28 @@
 			mainGroup = F50C38541C82993900DF2B57;
 			productRefGroup = F50C385E1C82993900DF2B57 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = F500BD581C82D2AF002E65FD /* Products */;
+					ProjectRef = F500BD571C82D2AF002E65FD /* Ardupilot.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				F50C385C1C82993900DF2B57 /* iAPM */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		F500BD5D1C82D2AF002E65FD /* dummytarget.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = dummytarget.app;
+			remoteRef = F500BD5C1C82D2AF002E65FD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		F50C385B1C82993900DF2B57 /* Resources */ = {
