@@ -13,9 +13,6 @@
 [submodule "modules/mavlink"]
 	path = modules/mavlink
 	url = git://github.com/benzeng/mavlink
-[submodule "gtest"]
-	path = modules/gtest
-	url = git://github.com/benzeng/googletest
 [submodule "modules/uavcan"]
 	path = uavcan
 	url = https://github.com/benzeng/uavcan.git
